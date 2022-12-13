@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "683385763912",
+    "project_id": "futuremarket-35448",
+    "storage_bucket": "futuremarket-35448.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683385763912:android:bc06d3e954a06a16cd407d",
+        "android_client_info": {
+          "package_name": "com.example.futuremarket4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683385763912-rcjj5p28q82uvkb7va9m4qkh9s42lkhh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.futuremarket4",
+            "certificate_hash": "cfdfbf0e013cbdbfda8dc54755e2e70444bca506"
+          }
+        },
+        {
+          "client_id": "683385763912-0167974cid2o27jcrs505t6gouc6dp35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCGY38CGzNHyV4CbhhKPdiFfp-DkxGgKwo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683385763912-0167974cid2o27jcrs505t6gouc6dp35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ForgotPassActivity"
+    android:background="@color/white">
+
+    <TextView
+        android:id="@+id/psifirlamesaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/emailTil"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true" />
+
+    <TextView
+        android:id="@+id/forgotpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginBottom="48dp"
+        android:text="Şifremi Sıfırla"
+        android:textColor="@color/black_shade2"
+        android:textSize="35sp"
+        android:textStyle="bold"></TextView>
+
+    <com.google.android.material.textfield.TextInputLayout
+    android:id="@+id/emailTil"
+    android:layout_marginBottom="10dp"
+    android:layout_width="match_parent"
+        android:layout_centerInParent="true"
+    android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+
+            android:id="@+id/emailEt"
+            android:layout_width="350dp"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:layout_marginLeft="30dp"
+
+
+            android:inputType="textEmailAddress" />
+
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/SifirlaBtn"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/emailTil"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttondesign"
+        android:text=" Gönder" />
+
+
+</RelativeLayout>
